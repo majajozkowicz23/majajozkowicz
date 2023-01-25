@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Strona Mai</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <style>
+      body {
+        background-color: darkgoldenrod;
+      }
+
+      table,
+      tr,
+      td {
+        border: 1px solid;
+      }
+
+      table {
+        background-color: white;
+      }
+
+      tr:nth-child(3) {
+        background-color: aqua;
+      }
+
+      .green-background {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span>Maja</span>
+      <a href="./zawody.html">Zawody</a>
+      <a href="./wyniki.html">Wyniki</a>
+      <hr />
+    </header>
+    <main>
+      <table>
+        <tr>
+          <td>nazwa</td>
+          <td>wyniki</td>
+        </tr>
+        <tr class="green-background">
+          <td>MP Zielona Góra</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>MP Boguszów Gorce</td>
+          <td>7</td>
+        </tr>
+      </table>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
